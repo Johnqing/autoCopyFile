@@ -2,7 +2,7 @@
  * 文件变化实时监控
  * User: liuqing
  * Date: 13-5-27
- * Time: 下午23:02
+ * Time: 下午2:40
  */
 var fs = require('fs'),
     path = require('path'),
@@ -66,10 +66,6 @@ fs.readFile('package.json', function(err, data){
         fs.watch(filename,function(event, name){
             if(event === 'change') {
                 copyFile(filename, basepath, copyPath);
-            }
-            console.log(isAutoCopy);
-            if(isAutoCopy){
-                fs.unwatch(filename);
             }
         });
     }
