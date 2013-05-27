@@ -2,6 +2,7 @@
     "name": "watchFile",
     "basePath": "E:/test/a",
     "copyPath": "E:/test/b",
+    "isAutoCopy": false,
     "version": "0.1.0",
     "description": "watch and copy",
     "main": "watch.js",
