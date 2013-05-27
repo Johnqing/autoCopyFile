@@ -1,0 +1,22 @@
+{
+    "name": "watchFile",
+    "basePath": "E:/test/a",
+    "copyPath": "E:/test/b",
+    "version": "0.1.0",
+    "description": "watch and copy",
+    "main": "watch.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Johnqing/watchFile.git"
+    },
+    "author": "johnqing",
+    "license": "BSD",
+    "readmeFilename": "README.md",
+    "gitHead": "ed062896c62daa1fffc0dee856ec8ded5dd41a49",
+    "devDependencies": {
+        "walk": "*"
+    }
+}
