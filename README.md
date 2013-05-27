@@ -10,5 +10,7 @@ package.json说明：
 **运行**
 
 <pre>
+npm install
+
 node watch.js
 </pre>
